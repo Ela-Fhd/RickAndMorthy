@@ -1,6 +1,8 @@
 <h1 align="center">Rick And Morthy Project</h1>
 
 
+![demo](https://github.com/Ela-Fhd/RickAndMorthy/blob/main/public/demo/demo.png)
+
   - &#128204;<a href="http://rickandmorthy.elahe.uno" >Demo</a>
   - 🙋‍♀️Developed by Elahe Fahmideh
   - 📆Created : september 2023
