@@ -1,0 +1,98 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-body: #0f172a;
+  --slate-800: #1e293b;
+  --slate-700: #334155;
+  --slate-600: #475569;
+  --slate-500: rgb(100, 116, 139);
+  --slate-400: #94a3b8;
+  --slate-300: #cbd5e1;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+  --slate-50: #f8fafc;
+  --rose-600: #e11d48;
+  --rose-500: #f43f5e;
+  --green-600: #22c55e;
+}
+
+body {
+  background-color: var(--bg-body);
+}
+
+li {
+  list-style: none;
+}
+
+.red {
+  color: #e11d48;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-nav {
+  padding: 0 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main-body {
+    flex-direction: column;
+  }
+
+  .main-nav {
+    padding: 0 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-search {
+    margin: 20px 0;
+  }
+
+  .navbar-favorite {
+    order: -1;
+    margin-right: calc(100% - 10px);
+  }
+
+  .character-list {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .character-detaile {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .character-detaile-item {
+    flex-direction: column;
+  }
+
+  .character-detaile-image {
+    width: 100%;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .episode-item {
+    flex-direction: column;
+  }
+
+  .episode-name {
+    text-align: center;
+  }
+
+  .episode-date {
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
+  }
+  .go-to-icon {
+    transform: rotate(180deg);
+  }
+}

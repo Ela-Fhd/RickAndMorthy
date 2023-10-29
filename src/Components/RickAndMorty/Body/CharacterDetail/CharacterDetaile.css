@@ -1,0 +1,160 @@
+.character-detaile {
+  width: 60%;
+  margin: 0px 15px;
+  padding: 0px 15px;
+  color: #fff;
+}
+
+.character-detaile-item {
+  width: 100%;
+  background-color: #1e293b;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 25px 0;
+}
+
+.character-detaile-image {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 200px;
+}
+
+.character-detaile-info {
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.status::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  margin: 0 3px;
+  transform: translateY(1px);
+}
+
+.status.bgred::before {
+  background-color: #e11d48;
+}
+
+.last-location {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.character-location {
+  margin-top: 20px;
+}
+
+.control-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-to-favorite,
+.go-to-character {
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+  background-color: #94a3b8;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+.go-to-icon {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.go-to-character {
+  background-color: #e11d48;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  /* transform: translateX(100%); */
+  /* margin-left: 100%; */
+}
+
+.add-to-favorite:focus {
+  outline: none;
+}
+
+.episode-list {
+  background-color: #1e293b;
+  padding: 10px 15px;
+  border-radius: 8px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.episode-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.episode-list-header h3 {
+  opacity: 0.7;
+}
+
+.episode-name {
+  font-size: 15px;
+}
+
+.episode-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.episode-date {
+  background-color: #475569;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 150px;
+  text-align: center;
+}
+
+.arrow-down-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.episode-item {
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.episode-item:hover {
+  opacity: 0.8;
+}
+
+.fave-icon {
+  font-size: 20px;
+  color: #22c55e;
+  transform: translateY(4px);
+  margin: 0 5px;
+}
+
+.isAddToFave {
+  color: #22c55e;
+}
+
+.sort-episodes {
+  background-color: transparent;
+  border: none;
+}

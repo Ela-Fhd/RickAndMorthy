@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    padding:15px;
+    border-radius: 8px;
+    background-color: #475569;
+    color: #fff;
+}
+
+.navbar-logo{
+    text-transform: capitalize;
+    order: 1;
+}
+
+.navbar-search{
+    order: 2;
+}
+
+.navbar-search input{
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #94a3b8;
+    color: #fff;
+}
+
+.navbar-search input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.navbar-result{
+    order: 3;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.navbar-favorite{
+    order: 4;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.heart-icon{
+    font-size: 22px;
+}
+
+.badge{
+    width: 15px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+}
+
